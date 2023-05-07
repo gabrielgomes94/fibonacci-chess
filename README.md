@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# Fibonnaci Chess
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Fibonnaci is a chess variant that I idealized when I was struggling to get motivated into studing chess endgames. 
+
+The game starts with both players having only a King and one Pawn. And then, after determined turns, each player receives new pieces at the board, following the table:
+
+0. King and Pawn 
+1. Pawn
+2. Pawn
+3. Pawn
+5. Bishop
+8. Rook
+13. Knight
+21. Queen
+34. Bishop
+55. Rook
+89. Knight
+154. Pawn (random start)
+
+The idea is to start playing endgames positions from the beginning of a match. There is no castles. 
+
 
 ## Available Scripts
 
