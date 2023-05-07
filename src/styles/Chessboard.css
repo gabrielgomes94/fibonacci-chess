@@ -1,0 +1,54 @@
+h1 {
+    display: flex;
+    justify-content: center;    
+}
+
+#chessboard {
+    background-color: rgb(151, 193, 209);
+    height: 900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 32px 0px;
+}
+
+#chessboard .board {
+    display: grid;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(8, 100px);
+    flex-wrap: wrap;
+    
+}
+
+#chessboard .tile {
+    height: 100px;
+    width: 100px;
+}
+
+.white-tile {
+    background-color: beige;
+}
+
+.black-tile {
+    background-color: rgb(79, 16, 138);
+    color: white
+}
+
+.horizontal-axis-coordinates {
+    display: inline-flex;         
+}
+
+.horizontal-axis-coordinates .coordinate{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.vertical-axis-coordinates .coordinate{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    margin-left: 12px;
+}
